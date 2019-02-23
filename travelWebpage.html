@@ -11,7 +11,7 @@
     <div class="container">
       <h1>Hey Jetsetter, what's next on your travel list?</h1>
       <h2>Are there too many places on your bucket list to choose from? Don't know where to start? Try our travel suggester to help you choose your next travel destination!</h2>
-      <form>
+      <form id="quiz">
         <div class="form-group">
           <label for="name">Your name:</label>
           <input id="name" class="form-control" type="text">
@@ -79,6 +79,9 @@
         </div>
         <button type="submit" class="btn btn-default">Submit</button>
       </form>
+      <div id="result">
+        <p>You chose mostly <span id="destination"></span></p>
+      </div>
 
     </div>
 
