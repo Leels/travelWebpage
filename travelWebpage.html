@@ -14,7 +14,7 @@
       <br>
       <img src="images/vacationAhead.jpg" class="img-thumbnail" alt="Road sign that says Vacation Ahead">
       <br>
-      <h2>Are there too many places on your bucket list to choose from? Don't know where to start? Try our travel suggester to help you choose your next travel destination!</h2>
+      <h2>Are there too many places on your bucket list to choose from? Don't know where to start? Try our Travel Suggester to help you choose your next travel destination!</h2>
       </div>
       <br>
       <form id="quiz">
@@ -30,7 +30,6 @@
           </label>
         </div>
         <div class="radio">
-        <div class="radio">
           <label>
             <input type="radio" name="comfortLevel" value="2">
             <strong>B.</strong> I have traveled before but I prefer visiting cities that have established tourist infastructure in place.
@@ -39,7 +38,7 @@
         <div class="radio">
           <label>
             <input type="radio" name="comfortLevel" value="3">
-            <strong>C.</strong> I'm a seasoned traveler. I have traveled to many places and want to explore places off of the beaten track.
+            <strong>C.</strong> I'm a seasoned traveler. I have traveled to many places and like to explore places off of the beaten track.
           </label>
         </div>
         <p>Which of these sounds most appealing to you?</p>
@@ -80,14 +79,51 @@
             <strong>C.</strong> I just need my wallet, passport, and the clothes on my back! It's more fun that way!
           </label>
         </div>
+        <p>How do you choose where to eat when traveling?</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="eatingStyle" value="1">
+            <strong>A.</strong> I ask my hotel concierge or eat at the hotel. I like to know what I'm getting and I don't want any surprises.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="eatingStyle" value="2">
+            <strong>B.</strong> I check Lonely Planet or other guide books for the best restaurant recomendations.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="eatingStyle" value="3">
+            <strong>C.</strong> Follow the locals! I find the spots where only locals eat and streetfood is usually the best!
+          </label>
+        </div>
+        <p>What is your main objective for this vacation?</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="objective" value="1">
+            <strong>A.</strong> I am going on this trip to relax and to find a sense of peace. I don't want to do extensive planning or accidentaly find myself in a stressful situation.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="objective" value="2">
+            <strong>B.</strong> Some call me a history buff of sorts. I want to see all the major sights and visit all the museums and come back knowing more about a city's culture and history than I did before I left.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="objective" value="3">
+            <strong>C.</strong> I am looking for the trip of a lifetime! I'm an adrenaline junkie and I am lookng for a grand adventure that is full of surprises and memorable moments.
+          </label>
+        </div>
 
         <button type="submit" class="btn btn-default">Bon voyage!</button>
       </form>
         <br>
         <p></p>
         <div id="result">
-          <p>Dear <span class="name"></span>,</p>
-          <p>You scored mostly <span id="destination"></span></p>
+          <p><span class="name"></span>, you scored mostly <span id="destination"></span></p>
       </div>
     </div>
 
