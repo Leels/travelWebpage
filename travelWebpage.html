@@ -9,81 +9,86 @@
   </head>
   <body>
     <div class="container">
+      <div class="center">
       <h1>Hey Jetsetter, what's next on your travel list?</h1>
+      <br>
+      <img src="images/vacationAhead.jpg" class="img-thumbnail" alt="Road sign that says Vacation Ahead">
+      <br>
       <h2>Are there too many places on your bucket list to choose from? Don't know where to start? Try our travel suggester to help you choose your next travel destination!</h2>
+      </div>
+      <br>
       <form id="quiz">
         <div class="form-group">
           <label for="name">Your name:</label>
           <input id="name" class="form-control" type="text">
         </div>
-        <div class="form-group">
-          <label for="address">Your mailing address:</label>
-          <input id="address" class="form-control" type="text">
-        </div>
         <p>What is your travel comfort level?</p>
         <div class="radio">
           <label>
-            <input type="radio" name="question2" value="A">
+            <input type="radio" name="comfortLevel" value="1">
             <strong>A.</strong> This will be my first big trip. I don't want to venture too far outside of my comfort zone.
           </label>
         </div>
         <div class="radio">
         <div class="radio">
           <label>
-            <input type="radio" name="question2" value="B">
+            <input type="radio" name="comfortLevel" value="2">
             <strong>B.</strong> I have traveled before but I prefer visiting cities that have established tourist infastructure in place.
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="question2" value="C">
+            <input type="radio" name="comfortLevel" value="3">
             <strong>C.</strong> I'm a seasoned traveler. I have traveled to many places and want to explore places off of the beaten track.
           </label>
         </div>
         <p>Which of these sounds most appealing to you?</p>
         <div class="radio">
           <label>
-            <input type="radio" name="question1" value="A">
+            <input type="radio" name="mostAppealing" value="1">
             <strong>A.</strong> Spending all day relaxing at the beach underneath a large sun umbrella, Mai Tai in hand.
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="question1" value="B">
+            <input type="radio" name="mostAppealing" value="2">
             <strong>B.</strong> A packed itinerary seeing all the sites of a big city, learning about the history and taking in the local culture.
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="question1" value="C">
-            <strong>C.</strong> Exploring a more remote region. Climbing peaks or rafting rapids, you are there for the adventure.
+            <input type="radio" name="mostAppealing" value="3">
+            <strong>C.</strong> Exploring a more remote region. Climbing peaks or rafting rapids, I'm there for the adventure!
           </label>
         </div>
         <p>What is your packing style?</p>
         <div class="radio">
           <label>
-            <input type="radio" name="question3" value="A">
+            <input type="radio" name="packingStyle" value="1">
             <strong>A.</strong> I always check a bag. I need all of my toiletries and essentials with me when I go somewhere.
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="question3" value="B">
+            <input type="radio" name="packingStyle" value="2">
             <strong>B.</strong> I usually can get by with carry-on luggage. If I forget something I can usually just buy it when I get there.
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="question3" value="C">
-            <strong>C.</strong> I just need my wallet, passport, and the clothes on my back! It's more fun that way when you're not tied down by material items.
+            <input type="radio" name="packingStyle" value="3">
+            <strong>C.</strong> I just need my wallet, passport, and the clothes on my back! It's more fun that way!
           </label>
         </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-      <div id="result">
-        <p>You chose mostly <span id="destination"></span></p>
-      </div>
 
+        <button type="submit" class="btn btn-default">Bon voyage!</button>
+      </form>
+        <br>
+        <p></p>
+        <div id="result">
+          <p>Dear <span class="name"></span>,</p>
+          <p>You scored mostly <span id="destination"></span></p>
+      </div>
     </div>
 
   </body>
