@@ -12,22 +12,22 @@ $(document).ready(function() {
       result = 'As! You are looking for something relaxing and not too far off the beaten path. Majorca, Spain just may be the perfect travel destination for you!';
     }
     if ((comfortLevel +  mostAppealing + packingStyle) === 4){
-      result = 'Mostly As';
+      result = 'As! You are looking for something relaxing and not too far off the beaten path. Majorca, Spain just may be the perfect travel destination for you!';
     }
     if ((comfortLevel +  mostAppealing + packingStyle) === 5){
       result = 'Bs! You are a well rounded traveler and you want to experience someplace rich in history and culture. Book that flight to Berlin, Germany now!';
     }
     if ((comfortLevel +  mostAppealing + packingStyle) === 6){
-      result = 'Mostly Bs';
+      result = 'Bs! You are a well rounded traveler and you want to experience someplace rich in history and culture. Book that flight to Berlin, Germany now!';
     }
     if ((comfortLevel +  mostAppealing + packingStyle) === 7){
-      result = 'Mostly Bs';
+      result = 'Bs! You are a well rounded traveler and you want to experience someplace rich in history and culture. Book that flight to Berlin, Germany now!';
     }
     if ((comfortLevel +  mostAppealing + packingStyle) === 8){
       result = 'Cs! You travel for the thrill and the adventure. You should make the trek out to Patagonia or the Atacama Desert, Chile!';
     }
     if ((comfortLevel +  mostAppealing + packingStyle) === 9){
-      result = 'Mostly Cs';
+      result = 'Cs! You travel for the thrill and the adventure. You should make the trek out to Patagonia or the Atacama Desert, Chile!';
     }
 
 
